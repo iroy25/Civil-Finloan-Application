@@ -1,0 +1,36 @@
+.frame1ContentContainer{
+  display: flex;
+  flex-direction: row;
+  margin: 0px 25px 0px 0px;
+  gap: 25px;
+  position: relative;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.title_cta_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 69px;
+}
+.title {
+  letter-spacing: -0.48px;
+}
+.logo {
+  width: 126px;
+  height: auto;
+}
+.cta {
+  width: 83px;
+  height: 32px;
+}
+.cta_copy {
+  padding: 4px 5px;
+}
+.square {
+  position: absolute;
+  top: 45px;
+  left: 149px;
+  width: 31px;
+}

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: AdobeClean-Bold;
+  src: url(AdobeClean-Bold_0edb55314b3e223fe468377819f9df3e.woff) format('woff'),
+  url(AdobeClean-Bold_62d35f35d8f2ffd987f63c7da4bd97dc.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: AdobeCleanBlack;
+  src: url(AdobeCleanBlack_04bb5398f558d7d07400f9f6586067c5.woff) format('woff'),
+  url(AdobeCleanBlack_4b7898e2fcfe5ad51e722d72912e7164.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

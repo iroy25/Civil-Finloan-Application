@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  -webkit-user-select: none;
+          user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 728px;
+  height: 90px;
+}
+
+.border {
+  border: 1px solid #000000;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  width: 728px;
+  height: 90px;
+  font-family: AdobeCleanBlack, sans-serif;
+  background-color: #FFD766;
+}
+
+.content {
+  opacity: 0;
+}
+
+.mainExit {
+  cursor: pointer;
+}
+
+.title {
+  font-size: 24px;
+  color: #000000;
+  line-height: 22px;
+  letter-spacing: -0.84px;
+}
+
+.subTitle {
+  font-family: AdobeClean-Bold, sans-serif;
+  font-size: undefined;
+  color: undefined;
+  line-height: undefined;
+}
+
+.cta {
+  font-family: AdobeClean-Bold, sans-serif;
+  color: #000000;
+  font-size: 14px;
+
+  overflow: hidden;
+  will-change: transform;
+  border-radius: 15px;
+  border: 2px solid #000;
+  background: #FFD766;
+}
+
+.cta_copy {
+  padding: 4px 5px;
+  text-align: center;
+}
+
+.flowers {
+  position: absolute;
+  width:100%;
+  height:100%
+}
