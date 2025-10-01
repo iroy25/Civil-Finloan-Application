@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+## 💡 Introduction
+**Civil-Finloan** is a finance management company that provides an extensive array of services to citizens, including:  
+- 💰 **Loans** for individuals and small businesses  
+- 🔄 **Money transfers** across regions  
+- 📊 **Wealth management services**  
+- 🌾 **Micro-loans** for agriculture and rural entrepreneurship  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is designed to make financial services more **accessible, transparent, and user-friendly** for citizens, entrepreneurs, and rural communities.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Technology Stack
+The project is built using modern and reliable technologies:  
 
-### `npm start`
+| Layer | Technology |
+|-------|------------|
+| Frontend | React.js, Bootstrap 5, HTML, CSS |
+| Backend | JSON Server (for mock API), Axios for HTTP requests |
+| Routing & State | React Router, React Context API |
+| Database | JSON-based mock database (`data.json`) |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Features & Working
+### 1️⃣ User Authentication
+- Secure login for registered members using `userID` and `password`  
+- Users can access personalized services after login  
 
-### `npm test`
+### 2️⃣ Loan Services
+- Users can browse multiple **loan types** and **loan codes**  
+- **EMI Calculator** available for each loan type  
+- Input validation ensures **valid loan amount and tenure**  
+- Dynamic calculation of estimated EMI using standard formula  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3️⃣ Money Transfers
+- Secure platform to initiate domestic and inward remittances  
+- Provides transaction details and ensures reliability  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎯 Benefits
+- **User-Friendly Interface:** Easy navigation and clear forms for all services  
+- **Transparent Financial Calculations:** EMI and tenure calculations for informed decisions 
+- **Secure Authentication:** Protects user data and sensitive information  
+- **Community Support:** Focus on small businesses and rural development  
+- **Fast & Responsive:** Built with React for smooth user experience  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Output
+<img width="1920" height="1080" alt="Screenshot 2025-10-01 235854" src="https://github.com/user-attachments/assets/0b7839dd-b939-49b5-851a-9912728e322d" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-02 000022" src="https://github.com/user-attachments/assets/1380157a-8745-47cf-b897-6fa655060060" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-02 000010" src="https://github.com/user-attachments/assets/aff3957c-c5db-407d-95e6-b8505da43da6" />
+<img width="1920" height="1080" alt="Screenshot 2025-10-02 000030" src="https://github.com/user-attachments/assets/ec66fabd-3694-4376-b738-567cd2101ca7" />
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
